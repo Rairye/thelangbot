@@ -7,7 +7,8 @@ import traceback
 mydb = None
 mycursor = None
 
-#Sets a threshold for an upper limit of tweets within a certain time period. Users who exceed this threshold are ignored and none of their tweets within that time period are retweeted.
+#Sets a threshold for an upper limit of tweets within a certain time period.
+#Users who exceed this threshold are ignored and none of their tweets within that time period are retweeted.
 tweetthreshold = 5
 
 #Checks to see if the mysql module is installed and, when it is, the database and cursor are initialized. 
@@ -120,16 +121,16 @@ def main(tweets : list, updateDB = False) -> None:
     # Get supporters here
     supporters : set = getSupporters()
 
-    userTweetMap = getUserTweetMap(tweets, blackList)
+    userTweetMap : {} = getUserTweetMap(tweets, blackList)
 
     for twitterUser in  userTweetMap:
-        tweets =  userTweetMap[twitterUser]
-        tweet_count = len(tweets)
+        tweets : [] =  userTweetMap[twitterUser]
+        tweetCount = len(tweets)
 
-        if tweet_count  > tweetthreshold:
+        if tweetCount  > tweetthreshold:
             continue
 
-        for i in range(min(2, tweet_count)):
+        for i in range(min(2, tweetCount)):
             tweet = tweets[i]
 
             try:
