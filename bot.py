@@ -12,7 +12,7 @@ def main(tweets: list, mydb, mycursor, lastSeenId: int) -> None:
 
     blackList: set = Utils.getBlacklist(mycursor)
     supporters: set = Utils.getSupporters(mycursor)
-        
+    
     for tweet in tweets:
         try:
             twitterUser: str = tweet.user.screen_name
