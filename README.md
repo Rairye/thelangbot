@@ -7,6 +7,8 @@
 ## About
 Twitter bot to help you learn foreign languages. Building a community through tweets. Retweets #100DaysOfLanguage and #langtwt.
 
+https://maxdemaio.github.io/thelangbot/
+
 ## Translations
 [Français](./translations/README_fr.md), [Italiano](./translations/README_it.md), [한국어](./translations/README_kr.md), [Ру́сский](./translations/README_ru.md), and [日本語](./translations/README_jp.md)
 
@@ -32,27 +34,6 @@ If you made the decision to commit to the challenge, click the link below to twe
 Follow [@thelangbot](https://twitter.com/thelangbot) that retweets all the tweets that contain the #100DaysOfLanguage and #langtwt hashtag. It’s a great way to keep yourself motivated and to participate in the community. Optionally, make sure to take notes in a physical journal to reinforce learning concepts. You can download and use [100DayLog.txt](./languageLog/100DayLog.txt) to track your progress if you'd like.
 
 Also, please encourage others who are posting their daily updates on their progress. Supporting others helps build and grow a community around positivity and that is helpful and effective. Plus, it's more likely that you will stick to your own commitment meeting new friends along the way!
-
-### How should you study?
-**Study principles**
-1. Unique to your circumstances
-2. Enjoyable in a way that suits your interests
-3. Flexible to different learning scenarios and environments
-4. Enables you to learn every day
-5. Built around comprehensible input
-6. It should incorporate all 4 language skills
-    - Reading
-    - Writing
-    - Listening
-    - Speaking
-7. It should grow and evolve according to your own experiences and desires
-- [Luca Lampariello - Best Way to Learn a Language](https://www.youtube.com/watch?v=SDLlhUv519k)
-
-**Good Anki SRS conventions**
-- Basic (can include optional media and examples on back): `[Front, Back]`
-- mySentences (can include optional media and examples on back): `[Front (word within a sentence), Back, Sentence Translation]`
-- [Anki](https://ankiweb.net/)
-- [Matt vs. Japan - The Role of the SRS](https://www.youtube.com/watch?v=wrBFhsnBQ2k)
 
 ------
 
